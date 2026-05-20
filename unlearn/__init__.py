@@ -13,6 +13,7 @@ from .GA_prune import GA_prune
 from .RL_pro import RL_proximal
 from .boundary_ex import boundary_expanding
 from .boundary_sh import boundary_shrink
+from .SAP import SAP
 
 
 def raw(data_loaders, model, criterion, args, mask=None):
@@ -57,5 +58,7 @@ def get_unlearn_method(name):
         return boundary_shrink
     elif name == "RL_proximal":
         return RL_proximal
+    elif name == "SAP":
+        return SAP
     else:
         raise NotImplementedError(f"Unlearn method {name} not implemented!")
