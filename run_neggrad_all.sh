@@ -16,7 +16,7 @@ MASTER="$LOGDIR/master_neggrad.log"
 
 DATA="/home/pesquisador/pesquisa/datasets"
 UNLEARN_EPOCHS=10
-UNLEARN_LR=0.013        # CIFAR-{10,100}. Para Food-101N: 0.0013.
+UNLEARN_LR=0.0001        # CIFAR-{10,100}. Para Food-101N: 0.0013.
 SEEDS=(10 20 30 40 50)  # 5 seeds para CIFAR; Food-101N usa só 10.
 
 timestamp() { date '+%Y-%m-%d %H:%M:%S'; }
@@ -161,7 +161,7 @@ run_ga_5seeds "cifar10_open_closed0.0_open0.6"   "cifar10_open" "0.6" "--open_ra
          --model_path ${FOOD_BASELINE} \
          --save_dir exp_${name} \
          --data ${DATA} \
-         --unlearn_epochs ${UNLEARN_EPOCHS} --unlearn_lr 0.0013 --batch_size 64 --num_classes 101 \
+         --unlearn_epochs ${UNLEARN_EPOCHS} --unlearn_lr 0.00001 --batch_size 64 --num_classes 101 \
          --indexes_to_replace [] --train_seed ${local_seed} --seed ${local_seed}"
 }
 

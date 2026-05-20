@@ -216,13 +216,25 @@ def main():
                     shadow_train_subset, batch_size=args.batch_size, shuffle=False
                 )
 
-                evaluation_result["SVC_MIA_forget_efficacy"] = evaluation.SVC_MIA(
+                try:
+
+
+                    evaluation_result["SVC_MIA_forget_efficacy"] = evaluation.SVC_MIA(
                     shadow_train=shadow_train_loader_mia,
                     shadow_test=test_loader,
                     target_train=None, 
                     target_test=forget_loader,
                     model=model,
                 )
+
+
+                except Exception as e:
+
+
+                    print(f"[WARN] SVC_MIA falhou: {e}")
+
+
+                    evaluation_result["SVC_MIA_forget_efficacy"] = None
                 unlearn.save_unlearn_checkpoint(model, evaluation_result, args)
             else:
                 print(f"AVISO: Retain dataset (tamanho {len(retain_dataset_final)}) é menor que o test set (tamanho {test_len_for_mia}) para SVC_MIA.")
