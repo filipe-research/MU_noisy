@@ -166,6 +166,10 @@ def parse_args():
         help="Número de amostras trusted (low-loss estratificado por classe) usadas pelo SAP",
     )
 
+    ### SAP (Singular Value Adjusted Projection) — Kodge 2025 AAAI
+    parser.add_argument("--sap_alpha", default=1.0, type=float, help="SAP scaling coefficient (Eq. 7 in Kodge 2025).")
+    parser.add_argument("--sap_n_trusted", default=1000, type=int, help="N amostras trusted (low-loss estratificado por classe) usadas pelo SAP")
+
     ### Noise Settings
 
     parser.add_argument(
