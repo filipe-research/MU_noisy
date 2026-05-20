@@ -342,6 +342,17 @@ def setup_model_dataset(args):
             seed=args.seed,
             no_aug=args.no_aug,
         )
+        # FIX: marca samples noisy manualmente (fn nao suporta only_mark)
+        if isinstance(indexes_to_replace, list) and len(indexes_to_replace) > 0 and isinstance(indexes_to_replace[0], int):
+            import numpy as np
+            _ds = marked_loader.dataset
+            _tgts = np.array(_ds.targets) if hasattr(_ds, "targets") else np.array(_ds.labels)
+            _tgts[indexes_to_replace] = -_tgts[indexes_to_replace] - 1
+            if hasattr(_ds, "targets"):
+                _ds.targets = _tgts.tolist()
+            else:
+                _ds.labels = _tgts.tolist()
+            print(f"[fix] Marked {len(indexes_to_replace)} noisy samples in cifar10_idn marked_loader")
 
         if args.train_seed is None:
             args.train_seed = args.seed
@@ -381,6 +392,17 @@ def setup_model_dataset(args):
             seed=args.seed,
             no_aug=args.no_aug,
         )
+        # FIX: marca samples noisy manualmente (fn nao suporta only_mark)
+        if isinstance(indexes_to_replace, list) and len(indexes_to_replace) > 0 and isinstance(indexes_to_replace[0], int):
+            import numpy as np
+            _ds = marked_loader.dataset
+            _tgts = np.array(_ds.targets) if hasattr(_ds, "targets") else np.array(_ds.labels)
+            _tgts[indexes_to_replace] = -_tgts[indexes_to_replace] - 1
+            if hasattr(_ds, "targets"):
+                _ds.targets = _tgts.tolist()
+            else:
+                _ds.labels = _tgts.tolist()
+            print(f"[fix] Marked {len(indexes_to_replace)} noisy samples in cifar100_idn marked_loader")
 
         if args.train_seed is None:
             args.train_seed = args.seed

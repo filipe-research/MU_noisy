@@ -172,9 +172,11 @@ def _compute_scaled_projection(activation_mat, alpha, device):
     A_t = A.t().contiguous()
     # full_matrices=False mantém U com shape [F, r] (r=min(F,N))
     U, S, _ = torch.linalg.svd(A_t, full_matrices=False)
-    sval_total = (S ** 2).sum()
-    sval_ratio = (S ** 2) / (sval_total + 1e-12)
-    importance = alpha * sval_ratio / ((alpha - 1.0) * sval_ratio + 1.0)
+    # Eq. 7 do paper (Kodge 2025): normalizacao pelo MAXIMO singular value,
+    # nao pela soma — soma faz a projecao escalar tudo por uma fracao pequena.
+    sval_max = S[0]  # S vem ordenada desc por torch.linalg.svd
+    sval_norm_sq = (S / (sval_max + 1e-12)) ** 2  # em (0, 1]
+    importance = alpha * sval_norm_sq / ((alpha - 1.0) * sval_norm_sq + 1.0)
     # P = U diag(importance) U^T  (sem o sqrt: queremos a projeção final, não o "feature mat")
     P = U @ torch.diag(importance) @ U.t()
     return P
