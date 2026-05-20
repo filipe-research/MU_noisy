@@ -153,20 +153,6 @@ def parse_args():
     )
 
     ### SAP (Singular Value Adjusted Projection) — Kodge 2025 AAAI
-    parser.add_argument(
-        "--sap_alpha",
-        default=1.0,
-        type=float,
-        help="SAP scaling coefficient (Eq. 7 in Kodge 2025). Não usa args.alpha (já tomado).",
-    )
-    parser.add_argument(
-        "--sap_n_trusted",
-        default=1000,
-        type=int,
-        help="Número de amostras trusted (low-loss estratificado por classe) usadas pelo SAP",
-    )
-
-    ### SAP (Singular Value Adjusted Projection) — Kodge 2025 AAAI
     parser.add_argument("--sap_alpha", default=1.0, type=float, help="SAP scaling coefficient (Eq. 7 in Kodge 2025).")
     parser.add_argument("--sap_n_trusted", default=1000, type=int, help="N amostras trusted (low-loss estratificado por classe) usadas pelo SAP")
 
