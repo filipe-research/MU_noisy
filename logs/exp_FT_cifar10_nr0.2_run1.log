@@ -1,0 +1,90 @@
+setup random seed = 10
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+setup random seed = 10
+The normalize layer is contained in the network
+setup random seed = 10
+Número de amostras no retain_dataset final: 40000
+Número de amostras no forget_dataset final: 10000
+Epoch #0, Learning rate: 0.013
+Epoch: [0][49/157]	Loss 0.0884 (0.1609)	Accuracy 98.438 (97.594)	Time 4.35
+Epoch: [0][99/157]	Loss 0.1237 (0.1282)	Accuracy 95.312 (97.699)	Time 3.91
+Epoch: [0][149/157]	Loss 0.0427 (0.1149)	Accuracy 99.219 (97.667)	Time 3.64
+train_accuracy 97.657
+one epoch duration:12.324813604354858
+Epoch #1, Learning rate: 0.013
+Epoch: [1][49/157]	Loss 0.0767 (0.0715)	Accuracy 98.828 (98.062)	Time 3.40
+Epoch: [1][99/157]	Loss 0.0855 (0.0683)	Accuracy 96.484 (98.121)	Time 3.73
+Epoch: [1][149/157]	Loss 0.1304 (0.0677)	Accuracy 96.484 (98.102)	Time 3.81
+train_accuracy 98.120
+one epoch duration:11.427679538726807
+Epoch #2, Learning rate: 0.013
+Epoch: [2][49/157]	Loss 0.0459 (0.0491)	Accuracy 97.656 (98.648)	Time 3.43
+Epoch: [2][99/157]	Loss 0.0530 (0.0504)	Accuracy 98.438 (98.586)	Time 3.67
+Epoch: [2][149/157]	Loss 0.0561 (0.0508)	Accuracy 98.438 (98.560)	Time 3.68
+train_accuracy 98.565
+one epoch duration:11.282688856124878
+Epoch #3, Learning rate: 0.013
+Epoch: [3][49/157]	Loss 0.0220 (0.0462)	Accuracy 99.609 (98.602)	Time 3.76
+Epoch: [3][99/157]	Loss 0.0417 (0.0442)	Accuracy 98.438 (98.695)	Time 3.66
+Epoch: [3][149/157]	Loss 0.0541 (0.0441)	Accuracy 98.828 (98.729)	Time 3.74
+train_accuracy 98.705
+one epoch duration:11.616515398025513
+Epoch #4, Learning rate: 0.013
+Epoch: [4][49/157]	Loss 0.0336 (0.0398)	Accuracy 98.828 (98.859)	Time 3.62
+Epoch: [4][99/157]	Loss 0.0245 (0.0372)	Accuracy 99.219 (98.953)	Time 3.73
+Epoch: [4][149/157]	Loss 0.0715 (0.0378)	Accuracy 98.438 (98.930)	Time 3.67
+train_accuracy 98.922
+one epoch duration:11.441441774368286
+Epoch #5, Learning rate: 0.013
+Epoch: [5][49/157]	Loss 0.0245 (0.0333)	Accuracy 99.219 (99.039)	Time 3.58
+Epoch: [5][99/157]	Loss 0.0703 (0.0321)	Accuracy 98.047 (99.059)	Time 3.81
+Epoch: [5][149/157]	Loss 0.0236 (0.0325)	Accuracy 99.219 (99.036)	Time 3.25
+train_accuracy 99.032
+one epoch duration:11.194729328155518
+Epoch #6, Learning rate: 0.013
+Epoch: [6][49/157]	Loss 0.0495 (0.0267)	Accuracy 98.047 (99.227)	Time 3.62
+Epoch: [6][99/157]	Loss 0.0246 (0.0289)	Accuracy 99.219 (99.148)	Time 3.50
+Epoch: [6][149/157]	Loss 0.0122 (0.0294)	Accuracy 100.000 (99.148)	Time 3.61
+train_accuracy 99.135
+one epoch duration:11.236878395080566
+Epoch #7, Learning rate: 0.013
+Epoch: [7][49/157]	Loss 0.0076 (0.0236)	Accuracy 100.000 (99.297)	Time 3.62
+Epoch: [7][99/157]	Loss 0.0349 (0.0228)	Accuracy 99.219 (99.316)	Time 3.81
+Epoch: [7][149/157]	Loss 0.0117 (0.0242)	Accuracy 99.609 (99.284)	Time 3.67
+train_accuracy 99.287
+one epoch duration:11.590538263320923
+Epoch #8, Learning rate: 0.013
+Epoch: [8][49/157]	Loss 0.0152 (0.0223)	Accuracy 99.609 (99.438)	Time 3.81
+Epoch: [8][99/157]	Loss 0.0241 (0.0236)	Accuracy 99.609 (99.352)	Time 3.97
+Epoch: [8][149/157]	Loss 0.0133 (0.0232)	Accuracy 99.219 (99.359)	Time 3.88
+train_accuracy 99.362
+one epoch duration:12.111775875091553
+Epoch #9, Learning rate: 0.013
+Epoch: [9][49/157]	Loss 0.0168 (0.0244)	Accuracy 99.609 (99.289)	Time 3.62
+Epoch: [9][99/157]	Loss 0.0360 (0.0216)	Accuracy 98.828 (99.391)	Time 3.71
+Epoch: [9][149/157]	Loss 0.0192 (0.0211)	Accuracy 99.609 (99.411)	Time 3.88
+train_accuracy 99.405
+one epoch duration:11.653732061386108
+Test: [0/157]	Loss 0.0133 (0.0133)	Accuracy 100.000 (100.000)
+Test: [50/157]	Loss 0.0095 (0.0147)	Accuracy 100.000 (99.655)
+Test: [100/157]	Loss 0.0064 (0.0148)	Accuracy 100.000 (99.636)
+Test: [150/157]	Loss 0.0036 (0.0145)	Accuracy 100.000 (99.635)
+valid_accuracy 99.635
+retain acc: 99.64
+Test: [0/40]	Loss 0.5432 (0.5432)	Accuracy 86.328 (86.328)
+valid_accuracy 88.190
+forget acc: 88.19
+Test: [0/40]	Loss 0.2973 (0.2973)	Accuracy 92.188 (92.188)
+valid_accuracy 92.230
+val acc: 92.23
+Test: [0/40]	Loss 0.2973 (0.2973)	Accuracy 92.188 (92.188)
+valid_accuracy 92.230
+test acc: 92.23
+UA (Unlearning Accuracy): 99.12% (baseado em forget acc: 88.19)
+RA (Remaining Accuracy / Retain Accuracy): 99.64%
+TA (Test Accuracy): 92.23%

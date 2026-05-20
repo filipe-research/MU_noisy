@@ -1,0 +1,60 @@
+setup random seed = 10
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+setup random seed = 10
+The normalize layer is contained in the network
+setup random seed = 10
+Número de amostras no retain_dataset final: 10000
+Número de amostras no forget_dataset final: 40000
+Epoch #0, Learning rate: 0.013
+MUNBa epoch 0 retain_acc 82.750 loss_r 1.0280 loss_u 2.7572 cos_avg -0.189
+one epoch duration:8.46705937385559
+Epoch #1, Learning rate: 0.013
+MUNBa epoch 1 retain_acc 84.820 loss_r 0.5762 loss_u 3.5932 cos_avg -0.080
+one epoch duration:7.573912143707275
+Epoch #2, Learning rate: 0.013
+MUNBa epoch 2 retain_acc 86.240 loss_r 0.4829 loss_u 3.9019 cos_avg -0.059
+one epoch duration:7.612152814865112
+Epoch #3, Learning rate: 0.013
+MUNBa epoch 3 retain_acc 87.570 loss_r 0.4360 loss_u 4.0571 cos_avg -0.053
+one epoch duration:7.516040563583374
+Epoch #4, Learning rate: 0.013
+MUNBa epoch 4 retain_acc 89.080 loss_r 0.4008 loss_u 4.1260 cos_avg -0.050
+one epoch duration:7.607396364212036
+Epoch #5, Learning rate: 0.013
+MUNBa epoch 5 retain_acc 89.890 loss_r 0.3682 loss_u 4.1960 cos_avg -0.052
+one epoch duration:7.549522399902344
+Epoch #6, Learning rate: 0.013
+MUNBa epoch 6 retain_acc 90.580 loss_r 0.3420 loss_u 4.2522 cos_avg -0.046
+one epoch duration:7.798971891403198
+Epoch #7, Learning rate: 0.013
+MUNBa epoch 7 retain_acc 91.610 loss_r 0.3150 loss_u 4.2948 cos_avg -0.049
+one epoch duration:7.521012783050537
+Epoch #8, Learning rate: 0.013
+MUNBa epoch 8 retain_acc 92.340 loss_r 0.2871 loss_u 4.3489 cos_avg -0.048
+one epoch duration:7.595577239990234
+Epoch #9, Learning rate: 0.013
+MUNBa epoch 9 retain_acc 93.030 loss_r 0.2681 loss_u 4.3939 cos_avg -0.042
+one epoch duration:7.623391151428223
+Test: [0/40]	Loss 0.1991 (0.1991)	Accuracy 94.531 (94.531)
+valid_accuracy 93.770
+retain acc: 93.77
+Test: [0/157]	Loss 0.6104 (0.6104)	Accuracy 80.078 (80.078)
+Test: [50/157]	Loss 0.7157 (0.6756)	Accuracy 75.391 (79.059)
+Test: [100/157]	Loss 0.7119 (0.6892)	Accuracy 76.562 (78.465)
+Test: [150/157]	Loss 0.6506 (0.6910)	Accuracy 78.516 (78.353)
+valid_accuracy 78.365
+forget acc: 78.36
+Test: [0/40]	Loss 0.6082 (0.6082)	Accuracy 78.516 (78.516)
+valid_accuracy 78.850
+val acc: 78.85
+Test: [0/40]	Loss 0.6082 (0.6082)	Accuracy 78.516 (78.516)
+valid_accuracy 78.850
+test acc: 78.85
+UA (Unlearning Accuracy): 99.22% (baseado em forget acc: 78.36)
+RA (Remaining Accuracy / Retain Accuracy): 93.77%
+TA (Test Accuracy): 78.85%

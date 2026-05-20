@@ -1,0 +1,80 @@
+setup random seed = 10
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+setup random seed = 10
+The normalize layer is contained in the network
+setup random seed = 10
+Número de amostras no retain_dataset final: 30000
+Número de amostras no forget_dataset final: 20000
+Epoch #0, Learning rate: 0.013
+MUNBa Epoch: [0][49/118]	Loss_r 0.1645 (0.1927)	Loss_u 7.2264 (7.7471)	Acc_r 93.359 (95.008)	cos -0.053 (-0.026)	a_r 1.239 a_u 0.026	||gr|| 0.829 ||gu|| 3.925	Time 10.16
+MUNBa Epoch: [0][99/118]	Loss_r 0.1394 (0.1619)	Loss_u 6.9463 (7.4295)	Acc_r 95.703 (95.473)	cos -0.036 (-0.043)	a_r 1.215 a_u 0.024	||gr|| 0.838 ||gu|| 4.178	Time 9.49
+MUNBa epoch 0 retain_acc 95.480 loss_r 0.1580 loss_u 7.3457 cos_avg -0.045
+one epoch duration:23.022130012512207
+Epoch #1, Learning rate: 0.013
+MUNBa Epoch: [1][49/118]	Loss_r 0.1190 (0.1156)	Loss_u 6.6689 (6.6739)	Acc_r 96.094 (96.477)	cos -0.029 (-0.068)	a_r 1.229 a_u 0.022	||gr|| 0.826 ||gu|| 4.592	Time 9.72
+MUNBa Epoch: [1][99/118]	Loss_r 0.0908 (0.1144)	Loss_u 6.8271 (6.5897)	Acc_r 96.484 (96.508)	cos -0.065 (-0.070)	a_r 1.582 a_u 0.021	||gr|| 0.654 ||gu|| 4.858	Time 9.62
+MUNBa epoch 1 retain_acc 96.447 loss_r 0.1163 loss_u 6.5782 cos_avg -0.069
+one epoch duration:22.693724870681763
+Epoch #2, Learning rate: 0.013
+MUNBa Epoch: [2][49/118]	Loss_r 0.0923 (0.1045)	Loss_u 6.2914 (6.3772)	Acc_r 96.875 (96.867)	cos -0.046 (-0.076)	a_r 1.285 a_u 0.022	||gr|| 0.797 ||gu|| 4.596	Time 9.43
+MUNBa Epoch: [2][99/118]	Loss_r 0.1257 (0.1008)	Loss_u 6.1676 (6.3570)	Acc_r 96.094 (97.023)	cos -0.067 (-0.076)	a_r 1.001 a_u 0.022	||gr|| 1.034 ||gu|| 4.791	Time 9.77
+MUNBa epoch 2 retain_acc 97.050 loss_r 0.1002 loss_u 6.3490 cos_avg -0.075
+one epoch duration:22.582348585128784
+Epoch #3, Learning rate: 0.013
+MUNBa Epoch: [3][49/118]	Loss_r 0.0751 (0.0889)	Loss_u 6.2379 (6.3018)	Acc_r 98.438 (97.430)	cos -0.101 (-0.072)	a_r 1.524 a_u 0.021	||gr|| 0.692 ||gu|| 5.071	Time 9.47
+MUNBa Epoch: [3][99/118]	Loss_r 0.1199 (0.0859)	Loss_u 6.4077 (6.3044)	Acc_r 96.875 (97.570)	cos -0.078 (-0.075)	a_r 1.144 a_u 0.022	||gr|| 0.910 ||gu|| 4.825	Time 9.38
+MUNBa epoch 3 retain_acc 97.617 loss_r 0.0852 loss_u 6.2949 cos_avg -0.074
+one epoch duration:22.179014682769775
+Epoch #4, Learning rate: 0.013
+MUNBa Epoch: [4][49/118]	Loss_r 0.0635 (0.0776)	Loss_u 6.2152 (6.2016)	Acc_r 98.438 (97.859)	cos -0.081 (-0.079)	a_r 1.158 a_u 0.020	||gr|| 0.901 ||gu|| 5.146	Time 9.53
+MUNBa Epoch: [4][99/118]	Loss_r 0.1033 (0.0777)	Loss_u 6.2234 (6.2031)	Acc_r 97.266 (97.906)	cos -0.081 (-0.076)	a_r 1.255 a_u 0.021	||gr|| 0.831 ||gu|| 5.002	Time 9.38
+MUNBa epoch 4 retain_acc 97.903 loss_r 0.0780 loss_u 6.2030 cos_avg -0.075
+one epoch duration:22.278584718704224
+Epoch #5, Learning rate: 0.013
+MUNBa Epoch: [5][49/118]	Loss_r 0.0661 (0.0643)	Loss_u 5.9320 (6.1827)	Acc_r 98.047 (98.406)	cos -0.092 (-0.077)	a_r 1.214 a_u 0.020	||gr|| 0.864 ||gu|| 5.374	Time 9.41
+MUNBa Epoch: [5][99/118]	Loss_r 0.0613 (0.0653)	Loss_u 6.2651 (6.1787)	Acc_r 98.438 (98.332)	cos -0.089 (-0.075)	a_r 1.442 a_u 0.020	||gr|| 0.727 ||gu|| 5.369	Time 9.50
+MUNBa epoch 5 retain_acc 98.330 loss_r 0.0657 loss_u 6.1793 cos_avg -0.074
+one epoch duration:22.237525463104248
+Epoch #6, Learning rate: 0.013
+MUNBa Epoch: [6][49/118]	Loss_r 0.0556 (0.0600)	Loss_u 6.1284 (6.1824)	Acc_r 98.438 (98.477)	cos -0.062 (-0.078)	a_r 1.039 a_u 0.019	||gr|| 0.994 ||gu|| 5.529	Time 9.47
+MUNBa Epoch: [6][99/118]	Loss_r 0.0592 (0.0590)	Loss_u 6.0504 (6.1695)	Acc_r 99.219 (98.562)	cos -0.114 (-0.077)	a_r 1.800 a_u 0.019	||gr|| 0.590 ||gu|| 5.687	Time 9.35
+MUNBa epoch 6 retain_acc 98.497 loss_r 0.0596 loss_u 6.1653 cos_avg -0.075
+one epoch duration:22.17828631401062
+Epoch #7, Learning rate: 0.013
+MUNBa Epoch: [7][49/118]	Loss_r 0.0730 (0.0572)	Loss_u 6.1343 (6.1066)	Acc_r 98.047 (98.586)	cos -0.072 (-0.078)	a_r 0.957 a_u 0.019	||gr|| 1.084 ||gu|| 5.567	Time 9.53
+MUNBa Epoch: [7][99/118]	Loss_r 0.0621 (0.0556)	Loss_u 6.0735 (6.1189)	Acc_r 98.828 (98.648)	cos -0.089 (-0.076)	a_r 1.249 a_u 0.020	||gr|| 0.839 ||gu|| 5.219	Time 9.23
+MUNBa epoch 7 retain_acc 98.650 loss_r 0.0558 loss_u 6.1257 cos_avg -0.074
+one epoch duration:22.109464168548584
+Epoch #8, Learning rate: 0.013
+MUNBa Epoch: [8][49/118]	Loss_r 0.0659 (0.0456)	Loss_u 6.2747 (6.1686)	Acc_r 96.875 (99.047)	cos -0.052 (-0.083)	a_r 0.827 a_u 0.018	||gr|| 1.242 ||gu|| 5.781	Time 9.44
+MUNBa Epoch: [8][99/118]	Loss_r 0.0336 (0.0473)	Loss_u 6.1460 (6.1573)	Acc_r 99.609 (98.965)	cos -0.098 (-0.077)	a_r 1.616 a_u 0.018	||gr|| 0.652 ||gu|| 5.974	Time 9.46
+MUNBa epoch 8 retain_acc 98.923 loss_r 0.0482 loss_u 6.1532 cos_avg -0.075
+one epoch duration:22.253700494766235
+Epoch #9, Learning rate: 0.013
+MUNBa Epoch: [9][49/118]	Loss_r 0.0551 (0.0426)	Loss_u 6.0924 (6.2070)	Acc_r 98.438 (99.148)	cos -0.001 (-0.078)	a_r 0.878 a_u 0.017	||gr|| 1.140 ||gu|| 5.963	Time 9.51
+MUNBa Epoch: [9][99/118]	Loss_r 0.0511 (0.0447)	Loss_u 5.9175 (6.1894)	Acc_r 99.219 (99.066)	cos -0.079 (-0.075)	a_r 1.420 a_u 0.018	||gr|| 0.734 ||gu|| 5.897	Time 9.37
+MUNBa epoch 9 retain_acc 99.060 loss_r 0.0449 loss_u 6.1993 cos_avg -0.075
+one epoch duration:22.27373218536377
+Test: [0/118]	Loss 0.0371 (0.0371)	Accuracy 98.828 (98.828)
+Test: [50/118]	Loss 0.0549 (0.0356)	Accuracy 98.828 (99.334)
+Test: [100/118]	Loss 0.0188 (0.0340)	Accuracy 100.000 (99.377)
+valid_accuracy 99.380
+retain acc: 99.38
+Test: [0/79]	Loss 0.1674 (0.1674)	Accuracy 95.703 (95.703)
+Test: [50/79]	Loss 0.2122 (0.1763)	Accuracy 94.141 (94.661)
+valid_accuracy 94.635
+forget acc: 94.64
+Test: [0/40]	Loss 0.2399 (0.2399)	Accuracy 91.797 (91.797)
+valid_accuracy 92.590
+val acc: 92.59
+Test: [0/40]	Loss 0.2399 (0.2399)	Accuracy 91.797 (91.797)
+valid_accuracy 92.590
+test acc: 92.59
+UA (Unlearning Accuracy): 99.05% (baseado em forget acc: 94.64)
+RA (Remaining Accuracy / Retain Accuracy): 99.38%
+TA (Test Accuracy): 92.59%

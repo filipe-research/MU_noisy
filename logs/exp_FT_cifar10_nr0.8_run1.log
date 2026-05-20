@@ -1,0 +1,60 @@
+setup random seed = 10
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+Dataset information: CIFAR-10	 45000 images for training 	 5000 images for validation	
+10000 images for testing	 no normalize applied in data_transform
+Data augmentation = randomcrop(32,4) + randomhorizontalflip
+setup random seed = 10
+The normalize layer is contained in the network
+setup random seed = 10
+Número de amostras no retain_dataset final: 10000
+Número de amostras no forget_dataset final: 40000
+Epoch #0, Learning rate: 0.013
+train_accuracy 82.390
+one epoch duration:3.586723804473877
+Epoch #1, Learning rate: 0.013
+train_accuracy 84.390
+one epoch duration:2.9013173580169678
+Epoch #2, Learning rate: 0.013
+train_accuracy 84.610
+one epoch duration:2.6353650093078613
+Epoch #3, Learning rate: 0.013
+train_accuracy 85.900
+one epoch duration:2.8593664169311523
+Epoch #4, Learning rate: 0.013
+train_accuracy 87.520
+one epoch duration:2.9453136920928955
+Epoch #5, Learning rate: 0.013
+train_accuracy 88.040
+one epoch duration:3.020402193069458
+Epoch #6, Learning rate: 0.013
+train_accuracy 86.970
+one epoch duration:3.079103469848633
+Epoch #7, Learning rate: 0.013
+train_accuracy 89.060
+one epoch duration:2.9841794967651367
+Epoch #8, Learning rate: 0.013
+train_accuracy 89.860
+one epoch duration:2.9490253925323486
+Epoch #9, Learning rate: 0.013
+train_accuracy 90.360
+one epoch duration:2.9256269931793213
+Test: [0/40]	Loss 0.1953 (0.1953)	Accuracy 93.750 (93.750)
+valid_accuracy 89.980
+retain acc: 89.98
+Test: [0/157]	Loss 0.8675 (0.8675)	Accuracy 73.828 (73.828)
+Test: [50/157]	Loss 0.8493 (0.7442)	Accuracy 74.609 (76.754)
+Test: [100/157]	Loss 0.6980 (0.7342)	Accuracy 76.953 (77.015)
+Test: [150/157]	Loss 0.6956 (0.7367)	Accuracy 77.344 (76.969)
+valid_accuracy 76.933
+forget acc: 76.93
+Test: [0/40]	Loss 0.6162 (0.6162)	Accuracy 82.031 (82.031)
+valid_accuracy 77.650
+val acc: 77.65
+Test: [0/40]	Loss 0.6162 (0.6162)	Accuracy 82.031 (82.031)
+valid_accuracy 77.650
+test acc: 77.65
+UA (Unlearning Accuracy): 99.23% (baseado em forget acc: 76.93)
+RA (Remaining Accuracy / Retain Accuracy): 89.98%
+TA (Test Accuracy): 77.65%
