@@ -14,6 +14,7 @@ from .RL_pro import RL_proximal
 from .boundary_ex import boundary_expanding
 from .boundary_sh import boundary_shrink
 from .SAP import SAP
+from .MUNBa import MUNBa
 
 
 def raw(data_loaders, model, criterion, args, mask=None):
@@ -60,5 +61,7 @@ def get_unlearn_method(name):
         return RL_proximal
     elif name == "SAP":
         return SAP
+    elif name == "MUNBa":
+        return MUNBa
     else:
         raise NotImplementedError(f"Unlearn method {name} not implemented!")
