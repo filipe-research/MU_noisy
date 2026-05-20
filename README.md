@@ -2,7 +2,7 @@
 This is the official repository for Saliency Unlearning for Clasification. The code structure of this project is adapted from the [Sparse Unlearn](https://github.com/OPTML-Group/Unlearn-Sparse) codebase.
 
 
-## Requirements
+## Requirements.
 ```bash
 pip install -r requirements.txt
 ```
