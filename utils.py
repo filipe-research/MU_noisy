@@ -344,7 +344,6 @@ def setup_model_dataset(args):
         )
         # FIX: marca samples noisy manualmente (fn nao suporta only_mark)
         if isinstance(indexes_to_replace, list) and len(indexes_to_replace) > 0 and isinstance(indexes_to_replace[0], int):
-            import numpy as np
             _ds = marked_loader.dataset
             _tgts = np.array(_ds.targets) if hasattr(_ds, "targets") else np.array(_ds.labels)
             _tgts[indexes_to_replace] = -_tgts[indexes_to_replace] - 1
@@ -394,7 +393,6 @@ def setup_model_dataset(args):
         )
         # FIX: marca samples noisy manualmente (fn nao suporta only_mark)
         if isinstance(indexes_to_replace, list) and len(indexes_to_replace) > 0 and isinstance(indexes_to_replace[0], int):
-            import numpy as np
             _ds = marked_loader.dataset
             _tgts = np.array(_ds.targets) if hasattr(_ds, "targets") else np.array(_ds.labels)
             _tgts[indexes_to_replace] = -_tgts[indexes_to_replace] - 1
@@ -440,6 +438,26 @@ def setup_model_dataset(args):
             noise_rate=args.noise_rate,
             open_ratio=args.open_ratio,
         )
+
+        # FIX: carrega JSON e marca samples noisy (closed + open) manualmente
+        def _fmt(x):
+            return f"{x:.2f}".rstrip("0").rstrip(".")
+        _open_rate = _fmt(round(args.noise_rate * args.open_ratio, 2))
+        _noise_file = f"cifar10_{_fmt(args.noise_rate)}_{_open_rate}_sym.json"
+        import json as _json, numpy as _np
+        _noise = _json.load(open(_noise_file, "r"))
+        _closed = list(_noise["closed_noise"])
+        _open = [p[0] if isinstance(p, (list, tuple)) else p for p in _noise["open_noise"]]
+        _idx = _closed + _open
+        if len(_idx) > 0:
+            _ds = marked_loader.dataset
+            _tgts = _np.array(_ds.targets) if hasattr(_ds, "targets") else _np.array(_ds.labels)
+            _tgts[_idx] = -_tgts[_idx] - 1
+            if hasattr(_ds, "targets"):
+                _ds.targets = _tgts.tolist()
+            else:
+                _ds.labels = _tgts.tolist()
+            print(f"[fix] Marked {len(_idx)} noisy (closed={len(_closed)}, open={len(_open)}) in cifar10_open")
         
         if args.train_seed is None:
             args.train_seed = args.seed
