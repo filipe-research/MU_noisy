@@ -94,7 +94,7 @@ def main():
         model.load_state_dict(checkpoint["state_dict"], strict=False)
         optimizer.load_state_dict(checkpoint["optimizer"])
         scheduler.load_state_dict(checkpoint["scheduler"])
-        initalization = checkpoint["init_weight"]
+        initalization = checkpoint.get("init_weight", None)
         print("loading from epoch: ", start_epoch, "best_sa=", best_sa)
 
     else:
@@ -106,6 +106,7 @@ def main():
         start_epoch = 0
         state = 0
 
+    state = 0  # fix: garante state definido tambem no caminho de resume
     for epoch in range(start_epoch, args.epochs):
         start_time = time.time()
         print(

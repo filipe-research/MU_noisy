@@ -816,3 +816,802 @@ Epoch: [100][49/196]	Loss 0.1713 (0.1358)	Accuracy 96.875 (98.086)	Time 3.24
 Epoch: [100][99/196]	Loss 0.1500 (0.1406)	Accuracy 98.438 (97.887)	Time 3.24
 Epoch: [100][149/196]	Loss 0.1400 (0.1406)	Accuracy 98.047 (97.891)	Time 3.24
 train_accuracy 97.822
+Test: [0/40]	Loss 3.1792 (3.1792)	Accuracy 44.141 (44.141)
+valid_accuracy 38.800
+one epoch duration:14.042834758758545
+Epoch #101, Learning rate: 0.010000000000000002
+Epoch: [101][49/196]	Loss 0.1304 (0.1209)	Accuracy 98.047 (98.305)	Time 3.25
+Epoch: [101][99/196]	Loss 0.1226 (0.1254)	Accuracy 98.828 (98.168)	Time 3.25
+Epoch: [101][149/196]	Loss 0.1219 (0.1260)	Accuracy 99.219 (98.161)	Time 3.25
+train_accuracy 98.064
+Test: [0/40]	Loss 3.2094 (3.2094)	Accuracy 43.750 (43.750)
+valid_accuracy 38.800
+one epoch duration:14.073185920715332
+Epoch #102, Learning rate: 0.010000000000000002
+Epoch: [102][49/196]	Loss 0.1476 (0.1132)	Accuracy 97.656 (98.484)	Time 3.23
+Epoch: [102][99/196]	Loss 0.1356 (0.1149)	Accuracy 98.438 (98.445)	Time 3.22
+Epoch: [102][149/196]	Loss 0.1477 (0.1176)	Accuracy 97.266 (98.297)	Time 3.23
+train_accuracy 98.278
+Test: [0/40]	Loss 3.1890 (3.1890)	Accuracy 44.531 (44.531)
+valid_accuracy 38.340
+one epoch duration:13.975110530853271
+Epoch #103, Learning rate: 0.010000000000000002
+Epoch: [103][49/196]	Loss 0.0976 (0.1052)	Accuracy 98.438 (98.602)	Time 3.22
+Epoch: [103][99/196]	Loss 0.1164 (0.1059)	Accuracy 98.438 (98.551)	Time 3.22
+Epoch: [103][149/196]	Loss 0.0893 (0.1069)	Accuracy 98.828 (98.516)	Time 3.23
+train_accuracy 98.462
+Test: [0/40]	Loss 3.2212 (3.2212)	Accuracy 42.969 (42.969)
+valid_accuracy 38.510
+one epoch duration:13.981488943099976
+Epoch #104, Learning rate: 0.010000000000000002
+Epoch: [104][49/196]	Loss 0.0735 (0.0916)	Accuracy 98.828 (98.961)	Time 3.22
+Epoch: [104][99/196]	Loss 0.0934 (0.0951)	Accuracy 99.609 (98.852)	Time 3.21
+Epoch: [104][149/196]	Loss 0.1154 (0.0980)	Accuracy 98.047 (98.750)	Time 3.21
+train_accuracy 98.706
+Test: [0/40]	Loss 3.2158 (3.2158)	Accuracy 41.016 (41.016)
+valid_accuracy 38.600
+one epoch duration:13.95090627670288
+Epoch #105, Learning rate: 0.010000000000000002
+Epoch: [105][49/196]	Loss 0.0799 (0.0860)	Accuracy 100.000 (99.109)	Time 3.22
+Epoch: [105][99/196]	Loss 0.0950 (0.0873)	Accuracy 98.438 (99.012)	Time 3.22
+Epoch: [105][149/196]	Loss 0.0983 (0.0898)	Accuracy 98.828 (98.901)	Time 3.21
+train_accuracy 98.806
+Test: [0/40]	Loss 3.1740 (3.1740)	Accuracy 42.188 (42.188)
+valid_accuracy 38.690
+one epoch duration:13.944423913955688
+Epoch #106, Learning rate: 0.010000000000000002
+Epoch: [106][49/196]	Loss 0.0862 (0.0811)	Accuracy 98.828 (99.172)	Time 3.24
+Epoch: [106][99/196]	Loss 0.0761 (0.0849)	Accuracy 99.609 (99.031)	Time 3.24
+Epoch: [106][149/196]	Loss 0.0705 (0.0878)	Accuracy 99.219 (98.945)	Time 3.22
+train_accuracy 98.898
+Test: [0/40]	Loss 3.2026 (3.2026)	Accuracy 42.188 (42.188)
+valid_accuracy 38.630
+one epoch duration:14.017090320587158
+Epoch #107, Learning rate: 0.010000000000000002
+Epoch: [107][49/196]	Loss 0.0945 (0.0789)	Accuracy 98.047 (99.203)	Time 3.24
+Epoch: [107][99/196]	Loss 0.0941 (0.0790)	Accuracy 98.438 (99.145)	Time 3.23
+Epoch: [107][149/196]	Loss 0.0791 (0.0814)	Accuracy 99.219 (99.073)	Time 3.22
+train_accuracy 99.004
+Test: [0/40]	Loss 3.1751 (3.1751)	Accuracy 43.359 (43.359)
+valid_accuracy 38.430
+one epoch duration:13.978994607925415
+Epoch #108, Learning rate: 0.010000000000000002
+Epoch: [108][49/196]	Loss 0.0786 (0.0730)	Accuracy 99.219 (99.281)	Time 3.22
+Epoch: [108][99/196]	Loss 0.0728 (0.0749)	Accuracy 98.828 (99.141)	Time 3.22
+Epoch: [108][149/196]	Loss 0.0912 (0.0772)	Accuracy 98.828 (99.073)	Time 3.22
+train_accuracy 99.050
+Test: [0/40]	Loss 3.2190 (3.2190)	Accuracy 42.578 (42.578)
+valid_accuracy 38.510
+one epoch duration:13.97893500328064
+Epoch #109, Learning rate: 0.010000000000000002
+Epoch: [109][49/196]	Loss 0.0677 (0.0684)	Accuracy 99.219 (99.289)	Time 3.25
+Epoch: [109][99/196]	Loss 0.0831 (0.0703)	Accuracy 99.219 (99.285)	Time 3.23
+Epoch: [109][149/196]	Loss 0.0894 (0.0724)	Accuracy 99.219 (99.193)	Time 3.22
+train_accuracy 99.130
+Test: [0/40]	Loss 3.1557 (3.1557)	Accuracy 42.969 (42.969)
+valid_accuracy 38.500
+one epoch duration:13.996119737625122
+Epoch #110, Learning rate: 0.010000000000000002
+Epoch: [110][49/196]	Loss 0.0712 (0.0641)	Accuracy 98.828 (99.453)	Time 3.23
+Epoch: [110][99/196]	Loss 0.0636 (0.0678)	Accuracy 99.609 (99.266)	Time 3.22
+Epoch: [110][149/196]	Loss 0.0822 (0.0691)	Accuracy 98.438 (99.229)	Time 3.21
+train_accuracy 99.172
+Test: [0/40]	Loss 3.1582 (3.1582)	Accuracy 41.016 (41.016)
+valid_accuracy 38.440
+one epoch duration:13.966066122055054
+Epoch #111, Learning rate: 0.010000000000000002
+Epoch: [111][49/196]	Loss 0.0643 (0.0673)	Accuracy 99.609 (99.242)	Time 3.23
+Epoch: [111][99/196]	Loss 0.0619 (0.0690)	Accuracy 99.219 (99.188)	Time 3.22
+Epoch: [111][149/196]	Loss 0.0692 (0.0699)	Accuracy 99.219 (99.193)	Time 3.22
+train_accuracy 99.168
+Test: [0/40]	Loss 3.1522 (3.1522)	Accuracy 42.188 (42.188)
+valid_accuracy 38.910
+one epoch duration:13.996968984603882
+Epoch #112, Learning rate: 0.010000000000000002
+Epoch: [112][49/196]	Loss 0.0514 (0.0628)	Accuracy 99.609 (99.250)	Time 3.23
+Epoch: [112][99/196]	Loss 0.0668 (0.0646)	Accuracy 99.219 (99.285)	Time 3.23
+Epoch: [112][149/196]	Loss 0.0674 (0.0655)	Accuracy 99.219 (99.286)	Time 3.24
+train_accuracy 99.248
+Test: [0/40]	Loss 3.1502 (3.1502)	Accuracy 41.406 (41.406)
+valid_accuracy 38.970
+one epoch duration:14.017198085784912
+Epoch #113, Learning rate: 0.010000000000000002
+Epoch: [113][49/196]	Loss 0.0612 (0.0610)	Accuracy 98.828 (99.352)	Time 3.24
+Epoch: [113][99/196]	Loss 0.0581 (0.0608)	Accuracy 99.609 (99.387)	Time 3.23
+Epoch: [113][149/196]	Loss 0.0649 (0.0621)	Accuracy 99.609 (99.365)	Time 3.24
+train_accuracy 99.328
+Test: [0/40]	Loss 3.1573 (3.1573)	Accuracy 42.969 (42.969)
+valid_accuracy 38.460
+one epoch duration:14.01960301399231
+Epoch #114, Learning rate: 0.010000000000000002
+Epoch: [114][49/196]	Loss 0.0511 (0.0568)	Accuracy 99.609 (99.547)	Time 3.24
+Epoch: [114][99/196]	Loss 0.0524 (0.0590)	Accuracy 100.000 (99.484)	Time 3.24
+Epoch: [114][149/196]	Loss 0.0407 (0.0598)	Accuracy 99.609 (99.464)	Time 3.24
+train_accuracy 99.432
+Test: [0/40]	Loss 3.1069 (3.1069)	Accuracy 43.359 (43.359)
+valid_accuracy 38.890
+one epoch duration:14.028791666030884
+Epoch #115, Learning rate: 0.010000000000000002
+Epoch: [115][49/196]	Loss 0.0584 (0.0549)	Accuracy 99.609 (99.484)	Time 3.23
+Epoch: [115][99/196]	Loss 0.0518 (0.0555)	Accuracy 99.609 (99.520)	Time 3.21
+Epoch: [115][149/196]	Loss 0.0590 (0.0576)	Accuracy 98.828 (99.453)	Time 3.22
+train_accuracy 99.426
+Test: [0/40]	Loss 3.1935 (3.1935)	Accuracy 43.750 (43.750)
+valid_accuracy 38.770
+one epoch duration:13.977396011352539
+Epoch #116, Learning rate: 0.010000000000000002
+Epoch: [116][49/196]	Loss 0.0563 (0.0554)	Accuracy 99.219 (99.484)	Time 3.24
+Epoch: [116][99/196]	Loss 0.0680 (0.0554)	Accuracy 99.219 (99.484)	Time 3.22
+Epoch: [116][149/196]	Loss 0.0646 (0.0568)	Accuracy 99.219 (99.424)	Time 3.22
+train_accuracy 99.398
+Test: [0/40]	Loss 3.1291 (3.1291)	Accuracy 41.406 (41.406)
+valid_accuracy 38.790
+one epoch duration:13.97454571723938
+Epoch #117, Learning rate: 0.010000000000000002
+Epoch: [117][49/196]	Loss 0.0500 (0.0519)	Accuracy 100.000 (99.477)	Time 3.24
+Epoch: [117][99/196]	Loss 0.0445 (0.0527)	Accuracy 100.000 (99.516)	Time 3.24
+Epoch: [117][149/196]	Loss 0.0618 (0.0548)	Accuracy 98.828 (99.479)	Time 3.24
+train_accuracy 99.464
+Test: [0/40]	Loss 3.1154 (3.1154)	Accuracy 42.969 (42.969)
+valid_accuracy 39.120
+one epoch duration:14.042821168899536
+Epoch #118, Learning rate: 0.010000000000000002
+Epoch: [118][49/196]	Loss 0.0486 (0.0542)	Accuracy 99.609 (99.469)	Time 3.24
+Epoch: [118][99/196]	Loss 0.0435 (0.0529)	Accuracy 99.609 (99.504)	Time 3.22
+Epoch: [118][149/196]	Loss 0.0643 (0.0539)	Accuracy 98.828 (99.479)	Time 3.22
+train_accuracy 99.460
+Test: [0/40]	Loss 3.1369 (3.1369)	Accuracy 44.531 (44.531)
+valid_accuracy 38.860
+one epoch duration:14.004101991653442
+Epoch #119, Learning rate: 0.010000000000000002
+Epoch: [119][49/196]	Loss 0.0508 (0.0528)	Accuracy 100.000 (99.438)	Time 3.24
+Epoch: [119][99/196]	Loss 0.0646 (0.0527)	Accuracy 98.438 (99.473)	Time 3.22
+Epoch: [119][149/196]	Loss 0.0496 (0.0536)	Accuracy 100.000 (99.461)	Time 3.22
+train_accuracy 99.428
+Test: [0/40]	Loss 3.1117 (3.1117)	Accuracy 44.141 (44.141)
+valid_accuracy 39.330
+one epoch duration:13.979915142059326
+Epoch #120, Learning rate: 0.010000000000000002
+Epoch: [120][49/196]	Loss 0.0385 (0.0503)	Accuracy 100.000 (99.508)	Time 3.23
+Epoch: [120][99/196]	Loss 0.0363 (0.0508)	Accuracy 99.609 (99.523)	Time 3.22
+Epoch: [120][149/196]	Loss 0.0648 (0.0521)	Accuracy 98.828 (99.497)	Time 3.23
+train_accuracy 99.488
+Test: [0/40]	Loss 3.0879 (3.0879)	Accuracy 45.312 (45.312)
+valid_accuracy 39.020
+one epoch duration:13.97642993927002
+Epoch #121, Learning rate: 0.010000000000000002
+Epoch: [121][49/196]	Loss 0.0540 (0.0484)	Accuracy 100.000 (99.594)	Time 3.23
+Epoch: [121][99/196]	Loss 0.0624 (0.0503)	Accuracy 99.219 (99.555)	Time 3.22
+Epoch: [121][149/196]	Loss 0.0560 (0.0510)	Accuracy 99.609 (99.526)	Time 3.22
+train_accuracy 99.500
+Test: [0/40]	Loss 3.1005 (3.1005)	Accuracy 44.531 (44.531)
+valid_accuracy 38.760
+one epoch duration:13.967299222946167
+Epoch #122, Learning rate: 0.010000000000000002
+Epoch: [122][49/196]	Loss 0.0498 (0.0473)	Accuracy 98.828 (99.625)	Time 3.24
+Epoch: [122][99/196]	Loss 0.0647 (0.0475)	Accuracy 99.219 (99.633)	Time 3.22
+Epoch: [122][149/196]	Loss 0.0580 (0.0488)	Accuracy 99.609 (99.586)	Time 3.22
+train_accuracy 99.546
+Test: [0/40]	Loss 3.0485 (3.0485)	Accuracy 45.312 (45.312)
+valid_accuracy 39.240
+one epoch duration:13.968541860580444
+Epoch #123, Learning rate: 0.010000000000000002
+Epoch: [123][49/196]	Loss 0.0378 (0.0459)	Accuracy 100.000 (99.609)	Time 3.24
+Epoch: [123][99/196]	Loss 0.0518 (0.0469)	Accuracy 99.609 (99.523)	Time 3.24
+Epoch: [123][149/196]	Loss 0.0493 (0.0479)	Accuracy 99.609 (99.544)	Time 3.24
+train_accuracy 99.512
+Test: [0/40]	Loss 3.0676 (3.0676)	Accuracy 43.750 (43.750)
+valid_accuracy 39.300
+one epoch duration:14.04461932182312
+Epoch #124, Learning rate: 0.010000000000000002
+Epoch: [124][49/196]	Loss 0.0469 (0.0475)	Accuracy 99.609 (99.555)	Time 3.25
+Epoch: [124][99/196]	Loss 0.0317 (0.0490)	Accuracy 99.609 (99.508)	Time 3.25
+Epoch: [124][149/196]	Loss 0.0510 (0.0500)	Accuracy 99.219 (99.479)	Time 3.24
+train_accuracy 99.486
+Test: [0/40]	Loss 3.0228 (3.0228)	Accuracy 45.312 (45.312)
+valid_accuracy 39.130
+one epoch duration:14.066968202590942
+Epoch #125, Learning rate: 0.010000000000000002
+Epoch: [125][49/196]	Loss 0.0459 (0.0469)	Accuracy 99.609 (99.555)	Time 3.24
+Epoch: [125][99/196]	Loss 0.0470 (0.0472)	Accuracy 99.609 (99.559)	Time 3.22
+Epoch: [125][149/196]	Loss 0.0521 (0.0475)	Accuracy 99.609 (99.536)	Time 3.22
+train_accuracy 99.520
+Test: [0/40]	Loss 3.0049 (3.0049)	Accuracy 43.750 (43.750)
+valid_accuracy 39.300
+one epoch duration:13.98517656326294
+Epoch #126, Learning rate: 0.010000000000000002
+Epoch: [126][49/196]	Loss 0.0378 (0.0428)	Accuracy 100.000 (99.711)	Time 3.24
+Epoch: [126][99/196]	Loss 0.0407 (0.0443)	Accuracy 99.609 (99.664)	Time 3.24
+Epoch: [126][149/196]	Loss 0.0481 (0.0456)	Accuracy 99.219 (99.615)	Time 3.23
+train_accuracy 99.566
+Test: [0/40]	Loss 3.0363 (3.0363)	Accuracy 43.750 (43.750)
+valid_accuracy 38.690
+one epoch duration:14.011841297149658
+Epoch #127, Learning rate: 0.010000000000000002
+Epoch: [127][49/196]	Loss 0.0715 (0.0460)	Accuracy 98.828 (99.609)	Time 3.25
+Epoch: [127][99/196]	Loss 0.0357 (0.0463)	Accuracy 100.000 (99.578)	Time 3.25
+Epoch: [127][149/196]	Loss 0.0381 (0.0475)	Accuracy 100.000 (99.544)	Time 3.24
+train_accuracy 99.512
+Test: [0/40]	Loss 3.0262 (3.0262)	Accuracy 42.969 (42.969)
+valid_accuracy 38.640
+one epoch duration:14.075154066085815
+Epoch #128, Learning rate: 0.010000000000000002
+Epoch: [128][49/196]	Loss 0.0358 (0.0431)	Accuracy 100.000 (99.656)	Time 3.23
+Epoch: [128][99/196]	Loss 0.0567 (0.0450)	Accuracy 99.219 (99.562)	Time 3.22
+Epoch: [128][149/196]	Loss 0.0389 (0.0455)	Accuracy 99.609 (99.568)	Time 3.24
+train_accuracy 99.548
+Test: [0/40]	Loss 3.0246 (3.0246)	Accuracy 43.750 (43.750)
+valid_accuracy 39.180
+one epoch duration:14.016095876693726
+Epoch #129, Learning rate: 0.010000000000000002
+Epoch: [129][49/196]	Loss 0.0477 (0.0408)	Accuracy 99.219 (99.672)	Time 3.24
+Epoch: [129][99/196]	Loss 0.0347 (0.0427)	Accuracy 100.000 (99.625)	Time 3.22
+Epoch: [129][149/196]	Loss 0.0560 (0.0444)	Accuracy 99.609 (99.586)	Time 3.22
+train_accuracy 99.532
+Test: [0/40]	Loss 3.0667 (3.0667)	Accuracy 43.359 (43.359)
+valid_accuracy 39.150
+one epoch duration:14.004598617553711
+Epoch #130, Learning rate: 0.010000000000000002
+Epoch: [130][49/196]	Loss 0.0387 (0.0434)	Accuracy 100.000 (99.633)	Time 3.24
+Epoch: [130][99/196]	Loss 0.0583 (0.0437)	Accuracy 99.219 (99.648)	Time 3.21
+Epoch: [130][149/196]	Loss 0.0486 (0.0441)	Accuracy 99.609 (99.628)	Time 3.24
+train_accuracy 99.606
+Test: [0/40]	Loss 2.9751 (2.9751)	Accuracy 44.531 (44.531)
+valid_accuracy 39.520
+one epoch duration:14.015971422195435
+Epoch #131, Learning rate: 0.010000000000000002
+Epoch: [131][49/196]	Loss 0.0331 (0.0396)	Accuracy 100.000 (99.758)	Time 3.23
+Epoch: [131][99/196]	Loss 0.0375 (0.0420)	Accuracy 100.000 (99.641)	Time 3.24
+Epoch: [131][149/196]	Loss 0.0388 (0.0432)	Accuracy 100.000 (99.633)	Time 3.22
+train_accuracy 99.598
+Test: [0/40]	Loss 2.9954 (2.9954)	Accuracy 44.922 (44.922)
+valid_accuracy 39.320
+one epoch duration:14.009184122085571
+Epoch #132, Learning rate: 0.010000000000000002
+Epoch: [132][49/196]	Loss 0.0553 (0.0416)	Accuracy 99.219 (99.625)	Time 3.23
+Epoch: [132][99/196]	Loss 0.0609 (0.0424)	Accuracy 99.219 (99.637)	Time 3.23
+Epoch: [132][149/196]	Loss 0.0399 (0.0428)	Accuracy 99.609 (99.638)	Time 3.22
+train_accuracy 99.618
+Test: [0/40]	Loss 3.0385 (3.0385)	Accuracy 45.312 (45.312)
+valid_accuracy 39.440
+one epoch duration:14.007652044296265
+Epoch #133, Learning rate: 0.010000000000000002
+Epoch: [133][49/196]	Loss 0.0351 (0.0417)	Accuracy 100.000 (99.664)	Time 3.24
+Epoch: [133][99/196]	Loss 0.0294 (0.0422)	Accuracy 100.000 (99.625)	Time 3.22
+Epoch: [133][149/196]	Loss 0.0531 (0.0428)	Accuracy 99.219 (99.612)	Time 3.23
+train_accuracy 99.624
+Test: [0/40]	Loss 2.9885 (2.9885)	Accuracy 42.188 (42.188)
+valid_accuracy 39.020
+one epoch duration:13.999176502227783
+Epoch #134, Learning rate: 0.010000000000000002
+Epoch: [134][49/196]	Loss 0.0570 (0.0399)	Accuracy 99.219 (99.688)	Time 3.23
+Epoch: [134][99/196]	Loss 0.0317 (0.0420)	Accuracy 100.000 (99.621)	Time 3.24
+Epoch: [134][149/196]	Loss 0.0408 (0.0421)	Accuracy 99.219 (99.622)	Time 3.24
+train_accuracy 99.586
+Test: [0/40]	Loss 3.0304 (3.0304)	Accuracy 45.703 (45.703)
+valid_accuracy 39.250
+one epoch duration:14.027499198913574
+Epoch #135, Learning rate: 0.010000000000000002
+Epoch: [135][49/196]	Loss 0.0421 (0.0403)	Accuracy 99.609 (99.719)	Time 3.24
+Epoch: [135][99/196]	Loss 0.0311 (0.0413)	Accuracy 100.000 (99.648)	Time 3.22
+Epoch: [135][149/196]	Loss 0.0383 (0.0419)	Accuracy 100.000 (99.646)	Time 3.24
+train_accuracy 99.618
+Test: [0/40]	Loss 2.9900 (2.9900)	Accuracy 42.578 (42.578)
+valid_accuracy 39.090
+one epoch duration:14.028584957122803
+Epoch #136, Learning rate: 0.0010000000000000002
+Epoch: [136][49/196]	Loss 0.0282 (0.0387)	Accuracy 100.000 (99.734)	Time 3.23
+Epoch: [136][99/196]	Loss 0.0400 (0.0377)	Accuracy 99.219 (99.750)	Time 3.24
+Epoch: [136][149/196]	Loss 0.0368 (0.0366)	Accuracy 100.000 (99.766)	Time 3.24
+train_accuracy 99.758
+Test: [0/40]	Loss 3.0046 (3.0046)	Accuracy 43.359 (43.359)
+valid_accuracy 39.320
+one epoch duration:14.02895188331604
+Epoch #137, Learning rate: 0.0010000000000000002
+Epoch: [137][49/196]	Loss 0.0263 (0.0350)	Accuracy 100.000 (99.742)	Time 3.25
+Epoch: [137][99/196]	Loss 0.0344 (0.0349)	Accuracy 99.609 (99.738)	Time 3.24
+Epoch: [137][149/196]	Loss 0.0391 (0.0355)	Accuracy 99.609 (99.719)	Time 3.24
+train_accuracy 99.732
+Test: [0/40]	Loss 2.9710 (2.9710)	Accuracy 44.531 (44.531)
+valid_accuracy 39.270
+one epoch duration:14.038930416107178
+Epoch #138, Learning rate: 0.0010000000000000002
+Epoch: [138][49/196]	Loss 0.0308 (0.0352)	Accuracy 100.000 (99.773)	Time 3.24
+Epoch: [138][99/196]	Loss 0.0428 (0.0352)	Accuracy 99.219 (99.750)	Time 3.24
+Epoch: [138][149/196]	Loss 0.0303 (0.0349)	Accuracy 100.000 (99.758)	Time 3.22
+train_accuracy 99.778
+Test: [0/40]	Loss 2.9959 (2.9959)	Accuracy 44.141 (44.141)
+valid_accuracy 39.410
+one epoch duration:14.00364065170288
+Epoch #139, Learning rate: 0.0010000000000000002
+Epoch: [139][49/196]	Loss 0.0353 (0.0333)	Accuracy 99.609 (99.812)	Time 3.22
+Epoch: [139][99/196]	Loss 0.0473 (0.0336)	Accuracy 99.609 (99.809)	Time 3.22
+Epoch: [139][149/196]	Loss 0.0332 (0.0333)	Accuracy 100.000 (99.807)	Time 3.23
+train_accuracy 99.798
+Test: [0/40]	Loss 2.9680 (2.9680)	Accuracy 44.141 (44.141)
+valid_accuracy 39.390
+one epoch duration:14.002972602844238
+Epoch #140, Learning rate: 0.0010000000000000002
+Epoch: [140][49/196]	Loss 0.0299 (0.0347)	Accuracy 100.000 (99.797)	Time 3.24
+Epoch: [140][99/196]	Loss 0.0284 (0.0330)	Accuracy 100.000 (99.840)	Time 3.22
+Epoch: [140][149/196]	Loss 0.0394 (0.0332)	Accuracy 99.219 (99.818)	Time 3.22
+train_accuracy 99.796
+Test: [0/40]	Loss 2.9802 (2.9802)	Accuracy 44.531 (44.531)
+valid_accuracy 39.570
+one epoch duration:13.974250078201294
+Epoch #141, Learning rate: 0.0010000000000000002
+Epoch: [141][49/196]	Loss 0.0309 (0.0333)	Accuracy 100.000 (99.812)	Time 3.23
+Epoch: [141][99/196]	Loss 0.0451 (0.0331)	Accuracy 99.609 (99.832)	Time 3.22
+Epoch: [141][149/196]	Loss 0.0286 (0.0331)	Accuracy 100.000 (99.826)	Time 3.21
+train_accuracy 99.820
+Test: [0/40]	Loss 2.9794 (2.9794)	Accuracy 44.531 (44.531)
+valid_accuracy 39.500
+one epoch duration:13.972993850708008
+Epoch #142, Learning rate: 0.0010000000000000002
+Epoch: [142][49/196]	Loss 0.0281 (0.0326)	Accuracy 100.000 (99.812)	Time 3.24
+Epoch: [142][99/196]	Loss 0.0306 (0.0328)	Accuracy 100.000 (99.820)	Time 3.22
+Epoch: [142][149/196]	Loss 0.0346 (0.0323)	Accuracy 99.609 (99.854)	Time 3.23
+train_accuracy 99.826
+Test: [0/40]	Loss 2.9851 (2.9851)	Accuracy 43.750 (43.750)
+valid_accuracy 39.330
+one epoch duration:14.02586030960083
+Epoch #143, Learning rate: 0.0010000000000000002
+Epoch: [143][49/196]	Loss 0.0459 (0.0331)	Accuracy 99.609 (99.742)	Time 3.23
+Epoch: [143][99/196]	Loss 0.0336 (0.0324)	Accuracy 99.609 (99.785)	Time 3.22
+Epoch: [143][149/196]	Loss 0.0383 (0.0324)	Accuracy 99.609 (99.799)	Time 3.22
+train_accuracy 99.788
+Test: [0/40]	Loss 2.9662 (2.9662)	Accuracy 44.531 (44.531)
+valid_accuracy 39.510
+one epoch duration:13.974611520767212
+Epoch #144, Learning rate: 0.0010000000000000002
+Epoch: [144][49/196]	Loss 0.0342 (0.0326)	Accuracy 99.609 (99.820)	Time 3.22
+Epoch: [144][99/196]	Loss 0.0260 (0.0323)	Accuracy 100.000 (99.840)	Time 3.22
+Epoch: [144][149/196]	Loss 0.0256 (0.0321)	Accuracy 100.000 (99.828)	Time 3.21
+train_accuracy 99.830
+Test: [0/40]	Loss 2.9854 (2.9854)	Accuracy 44.141 (44.141)
+valid_accuracy 39.730
+one epoch duration:13.949726104736328
+Epoch #145, Learning rate: 0.0010000000000000002
+Epoch: [145][49/196]	Loss 0.0294 (0.0316)	Accuracy 100.000 (99.867)	Time 3.22
+Epoch: [145][99/196]	Loss 0.0304 (0.0312)	Accuracy 99.609 (99.859)	Time 3.22
+Epoch: [145][149/196]	Loss 0.0326 (0.0318)	Accuracy 99.609 (99.844)	Time 3.22
+train_accuracy 99.850
+Test: [0/40]	Loss 2.9922 (2.9922)	Accuracy 44.531 (44.531)
+valid_accuracy 39.500
+one epoch duration:13.964916706085205
+Epoch #146, Learning rate: 0.0010000000000000002
+Epoch: [146][49/196]	Loss 0.0314 (0.0308)	Accuracy 99.609 (99.852)	Time 3.23
+Epoch: [146][99/196]	Loss 0.0315 (0.0304)	Accuracy 99.609 (99.852)	Time 3.22
+Epoch: [146][149/196]	Loss 0.0291 (0.0308)	Accuracy 99.609 (99.839)	Time 3.21
+train_accuracy 99.834
+Test: [0/40]	Loss 2.9640 (2.9640)	Accuracy 44.531 (44.531)
+valid_accuracy 39.530
+one epoch duration:13.982650995254517
+Epoch #147, Learning rate: 0.0010000000000000002
+Epoch: [147][49/196]	Loss 0.0252 (0.0304)	Accuracy 100.000 (99.891)	Time 3.23
+Epoch: [147][99/196]	Loss 0.0282 (0.0317)	Accuracy 100.000 (99.824)	Time 3.23
+Epoch: [147][149/196]	Loss 0.0286 (0.0318)	Accuracy 100.000 (99.833)	Time 3.22
+train_accuracy 99.832
+Test: [0/40]	Loss 2.9770 (2.9770)	Accuracy 43.750 (43.750)
+valid_accuracy 39.400
+one epoch duration:14.021602869033813
+Epoch #148, Learning rate: 0.0010000000000000002
+Epoch: [148][49/196]	Loss 0.0276 (0.0303)	Accuracy 100.000 (99.891)	Time 3.22
+Epoch: [148][99/196]	Loss 0.0279 (0.0302)	Accuracy 100.000 (99.887)	Time 3.22
+Epoch: [148][149/196]	Loss 0.0312 (0.0304)	Accuracy 99.609 (99.880)	Time 3.22
+train_accuracy 99.850
+Test: [0/40]	Loss 2.9775 (2.9775)	Accuracy 44.531 (44.531)
+valid_accuracy 39.310
+one epoch duration:13.99431324005127
+Epoch #149, Learning rate: 0.0010000000000000002
+Epoch: [149][49/196]	Loss 0.0223 (0.0312)	Accuracy 100.000 (99.844)	Time 3.24
+Epoch: [149][99/196]	Loss 0.0355 (0.0309)	Accuracy 99.609 (99.867)	Time 3.22
+Epoch: [149][149/196]	Loss 0.0324 (0.0306)	Accuracy 100.000 (99.878)	Time 3.22
+train_accuracy 99.868
+Test: [0/40]	Loss 2.9790 (2.9790)	Accuracy 44.141 (44.141)
+valid_accuracy 39.430
+one epoch duration:14.004210710525513
+Epoch #150, Learning rate: 0.0010000000000000002
+Epoch: [150][49/196]	Loss 0.0263 (0.0298)	Accuracy 100.000 (99.898)	Time 3.24
+Epoch: [150][99/196]	Loss 0.0260 (0.0298)	Accuracy 100.000 (99.902)	Time 3.22
+Epoch: [150][149/196]	Loss 0.0286 (0.0298)	Accuracy 99.609 (99.896)	Time 3.21
+train_accuracy 99.882
+Test: [0/40]	Loss 2.9869 (2.9869)	Accuracy 42.969 (42.969)
+valid_accuracy 39.480
+one epoch duration:13.986726760864258
+Epoch #151, Learning rate: 0.0010000000000000002
+Epoch: [151][49/196]	Loss 0.0327 (0.0305)	Accuracy 99.609 (99.820)	Time 3.24
+Epoch: [151][99/196]	Loss 0.0252 (0.0310)	Accuracy 100.000 (99.832)	Time 3.22
+Epoch: [151][149/196]	Loss 0.0323 (0.0312)	Accuracy 100.000 (99.823)	Time 3.22
+train_accuracy 99.828
+Test: [0/40]	Loss 2.9850 (2.9850)	Accuracy 44.531 (44.531)
+valid_accuracy 39.560
+one epoch duration:14.001150846481323
+Epoch #152, Learning rate: 0.0010000000000000002
+Epoch: [152][49/196]	Loss 0.0252 (0.0305)	Accuracy 100.000 (99.883)	Time 3.23
+Epoch: [152][99/196]	Loss 0.0297 (0.0311)	Accuracy 100.000 (99.844)	Time 3.22
+Epoch: [152][149/196]	Loss 0.0276 (0.0311)	Accuracy 100.000 (99.836)	Time 3.22
+train_accuracy 99.830
+Test: [0/40]	Loss 2.9650 (2.9650)	Accuracy 44.141 (44.141)
+valid_accuracy 39.480
+one epoch duration:13.98717999458313
+Epoch #153, Learning rate: 0.0010000000000000002
+Epoch: [153][49/196]	Loss 0.0258 (0.0301)	Accuracy 100.000 (99.867)	Time 3.23
+Epoch: [153][99/196]	Loss 0.0270 (0.0302)	Accuracy 100.000 (99.883)	Time 3.22
+Epoch: [153][149/196]	Loss 0.0280 (0.0303)	Accuracy 100.000 (99.854)	Time 3.22
+train_accuracy 99.844
+Test: [0/40]	Loss 2.9629 (2.9629)	Accuracy 45.312 (45.312)
+valid_accuracy 39.420
+one epoch duration:13.985437870025635
+Epoch #154, Learning rate: 0.0010000000000000002
+Epoch: [154][49/196]	Loss 0.0290 (0.0304)	Accuracy 100.000 (99.891)	Time 3.23
+Epoch: [154][99/196]	Loss 0.0318 (0.0309)	Accuracy 100.000 (99.848)	Time 3.22
+Epoch: [154][149/196]	Loss 0.0244 (0.0308)	Accuracy 99.609 (99.854)	Time 3.22
+train_accuracy 99.864
+Test: [0/40]	Loss 2.9613 (2.9613)	Accuracy 45.312 (45.312)
+valid_accuracy 39.400
+one epoch duration:13.997984647750854
+Epoch #155, Learning rate: 0.0010000000000000002
+Epoch: [155][49/196]	Loss 0.0269 (0.0305)	Accuracy 99.609 (99.836)	Time 3.23
+Epoch: [155][99/196]	Loss 0.0319 (0.0305)	Accuracy 100.000 (99.844)	Time 3.21
+Epoch: [155][149/196]	Loss 0.0270 (0.0304)	Accuracy 100.000 (99.852)	Time 3.22
+train_accuracy 99.864
+Test: [0/40]	Loss 2.9481 (2.9481)	Accuracy 44.531 (44.531)
+valid_accuracy 39.610
+one epoch duration:13.988396406173706
+Epoch #156, Learning rate: 0.0010000000000000002
+Epoch: [156][49/196]	Loss 0.0262 (0.0296)	Accuracy 100.000 (99.906)	Time 3.23
+Epoch: [156][99/196]	Loss 0.0324 (0.0300)	Accuracy 99.609 (99.871)	Time 3.21
+Epoch: [156][149/196]	Loss 0.0402 (0.0304)	Accuracy 99.219 (99.857)	Time 3.22
+train_accuracy 99.864
+Test: [0/40]	Loss 2.9664 (2.9664)	Accuracy 42.969 (42.969)
+valid_accuracy 39.310
+one epoch duration:13.977180480957031
+Epoch #157, Learning rate: 0.0010000000000000002
+Epoch: [157][49/196]	Loss 0.0366 (0.0298)	Accuracy 99.219 (99.922)	Time 3.23
+Epoch: [157][99/196]	Loss 0.0263 (0.0295)	Accuracy 100.000 (99.898)	Time 3.22
+Epoch: [157][149/196]	Loss 0.0351 (0.0303)	Accuracy 99.609 (99.870)	Time 3.21
+train_accuracy 99.858
+Test: [0/40]	Loss 2.9676 (2.9676)	Accuracy 44.531 (44.531)
+valid_accuracy 39.710
+one epoch duration:13.978537559509277
+Epoch #158, Learning rate: 0.0010000000000000002
+Epoch: [158][49/196]	Loss 0.0289 (0.0318)	Accuracy 100.000 (99.805)	Time 3.24
+Epoch: [158][99/196]	Loss 0.0283 (0.0309)	Accuracy 99.609 (99.828)	Time 3.22
+Epoch: [158][149/196]	Loss 0.0284 (0.0306)	Accuracy 100.000 (99.849)	Time 3.22
+train_accuracy 99.842
+Test: [0/40]	Loss 2.9702 (2.9702)	Accuracy 44.141 (44.141)
+valid_accuracy 39.680
+one epoch duration:13.996993064880371
+Epoch #159, Learning rate: 0.0010000000000000002
+Epoch: [159][49/196]	Loss 0.0285 (0.0302)	Accuracy 100.000 (99.859)	Time 3.23
+Epoch: [159][99/196]	Loss 0.0350 (0.0304)	Accuracy 99.609 (99.859)	Time 3.23
+Epoch: [159][149/196]	Loss 0.0270 (0.0304)	Accuracy 100.000 (99.862)	Time 3.23
+train_accuracy 99.864
+Test: [0/40]	Loss 2.9710 (2.9710)	Accuracy 43.750 (43.750)
+valid_accuracy 39.910
+one epoch duration:14.018909692764282
+Epoch #160, Learning rate: 0.0010000000000000002
+Epoch: [160][49/196]	Loss 0.0263 (0.0294)	Accuracy 100.000 (99.914)	Time 3.23
+Epoch: [160][99/196]	Loss 0.0300 (0.0298)	Accuracy 100.000 (99.859)	Time 3.22
+Epoch: [160][149/196]	Loss 0.0257 (0.0304)	Accuracy 100.000 (99.833)	Time 3.23
+train_accuracy 99.836
+Test: [0/40]	Loss 2.9495 (2.9495)	Accuracy 44.922 (44.922)
+valid_accuracy 39.690
+one epoch duration:14.008023977279663
+Epoch #161, Learning rate: 0.0010000000000000002
+Epoch: [161][49/196]	Loss 0.0323 (0.0296)	Accuracy 100.000 (99.859)	Time 3.25
+Epoch: [161][99/196]	Loss 0.0274 (0.0298)	Accuracy 100.000 (99.887)	Time 3.25
+Epoch: [161][149/196]	Loss 0.0278 (0.0299)	Accuracy 100.000 (99.865)	Time 3.23
+train_accuracy 99.846
+Test: [0/40]	Loss 2.9353 (2.9353)	Accuracy 44.531 (44.531)
+valid_accuracy 39.590
+one epoch duration:14.040908336639404
+Epoch #162, Learning rate: 0.0010000000000000002
+Epoch: [162][49/196]	Loss 0.0311 (0.0296)	Accuracy 100.000 (99.906)	Time 3.23
+Epoch: [162][99/196]	Loss 0.0278 (0.0296)	Accuracy 100.000 (99.891)	Time 3.22
+Epoch: [162][149/196]	Loss 0.0360 (0.0301)	Accuracy 99.609 (99.872)	Time 3.23
+train_accuracy 99.876
+Test: [0/40]	Loss 2.9597 (2.9597)	Accuracy 44.531 (44.531)
+valid_accuracy 39.810
+one epoch duration:14.004292011260986
+Epoch #163, Learning rate: 0.0010000000000000002
+Epoch: [163][49/196]	Loss 0.0230 (0.0302)	Accuracy 100.000 (99.898)	Time 3.23
+Epoch: [163][99/196]	Loss 0.0300 (0.0303)	Accuracy 100.000 (99.887)	Time 3.22
+Epoch: [163][149/196]	Loss 0.0313 (0.0302)	Accuracy 100.000 (99.875)	Time 3.22
+train_accuracy 99.862
+Test: [0/40]	Loss 2.9452 (2.9452)	Accuracy 45.312 (45.312)
+valid_accuracy 39.670
+one epoch duration:13.985037088394165
+Epoch #164, Learning rate: 0.0010000000000000002
+Epoch: [164][49/196]	Loss 0.0252 (0.0300)	Accuracy 100.000 (99.898)	Time 3.23
+Epoch: [164][99/196]	Loss 0.0362 (0.0301)	Accuracy 99.609 (99.879)	Time 3.22
+Epoch: [164][149/196]	Loss 0.0252 (0.0300)	Accuracy 100.000 (99.870)	Time 3.22
+train_accuracy 99.864
+Test: [0/40]	Loss 2.9586 (2.9586)	Accuracy 45.312 (45.312)
+valid_accuracy 39.510
+one epoch duration:13.990712881088257
+Epoch #165, Learning rate: 0.0010000000000000002
+Epoch: [165][49/196]	Loss 0.0242 (0.0302)	Accuracy 100.000 (99.812)	Time 3.23
+Epoch: [165][99/196]	Loss 0.0296 (0.0295)	Accuracy 99.609 (99.855)	Time 3.22
+Epoch: [165][149/196]	Loss 0.0351 (0.0297)	Accuracy 100.000 (99.865)	Time 3.22
+train_accuracy 99.854
+Test: [0/40]	Loss 2.9531 (2.9531)	Accuracy 44.141 (44.141)
+valid_accuracy 39.560
+one epoch duration:13.988275527954102
+Epoch #166, Learning rate: 0.0010000000000000002
+Epoch: [166][49/196]	Loss 0.0275 (0.0311)	Accuracy 100.000 (99.812)	Time 3.24
+Epoch: [166][99/196]	Loss 0.0361 (0.0303)	Accuracy 99.609 (99.840)	Time 3.23
+Epoch: [166][149/196]	Loss 0.0337 (0.0304)	Accuracy 99.609 (99.839)	Time 3.23
+train_accuracy 99.848
+Test: [0/40]	Loss 2.9387 (2.9387)	Accuracy 44.531 (44.531)
+valid_accuracy 39.740
+one epoch duration:14.027682304382324
+Epoch #167, Learning rate: 0.0010000000000000002
+Epoch: [167][49/196]	Loss 0.0376 (0.0298)	Accuracy 99.609 (99.820)	Time 3.24
+Epoch: [167][99/196]	Loss 0.0306 (0.0290)	Accuracy 99.609 (99.859)	Time 3.23
+Epoch: [167][149/196]	Loss 0.0245 (0.0295)	Accuracy 100.000 (99.852)	Time 3.23
+train_accuracy 99.852
+Test: [0/40]	Loss 2.9428 (2.9428)	Accuracy 43.750 (43.750)
+valid_accuracy 39.700
+one epoch duration:14.019202709197998
+Epoch #168, Learning rate: 0.0010000000000000002
+Epoch: [168][49/196]	Loss 0.0356 (0.0303)	Accuracy 99.609 (99.844)	Time 3.23
+Epoch: [168][99/196]	Loss 0.0427 (0.0298)	Accuracy 99.609 (99.852)	Time 3.22
+Epoch: [168][149/196]	Loss 0.0315 (0.0293)	Accuracy 99.609 (99.865)	Time 3.23
+train_accuracy 99.852
+Test: [0/40]	Loss 2.9484 (2.9484)	Accuracy 44.531 (44.531)
+valid_accuracy 39.650
+one epoch duration:14.007732391357422
+Epoch #169, Learning rate: 0.0010000000000000002
+Epoch: [169][49/196]	Loss 0.0278 (0.0289)	Accuracy 100.000 (99.883)	Time 3.23
+Epoch: [169][99/196]	Loss 0.0284 (0.0292)	Accuracy 99.609 (99.879)	Time 3.22
+Epoch: [169][149/196]	Loss 0.0237 (0.0296)	Accuracy 100.000 (99.875)	Time 3.22
+train_accuracy 99.884
+Test: [0/40]	Loss 2.9447 (2.9447)	Accuracy 44.531 (44.531)
+valid_accuracy 39.710
+one epoch duration:13.997018814086914
+Epoch #170, Learning rate: 0.0010000000000000002
+Epoch: [170][49/196]	Loss 0.0242 (0.0293)	Accuracy 100.000 (99.914)	Time 3.23
+Epoch: [170][99/196]	Loss 0.0328 (0.0298)	Accuracy 100.000 (99.871)	Time 3.22
+Epoch: [170][149/196]	Loss 0.0266 (0.0297)	Accuracy 100.000 (99.883)	Time 3.23
+train_accuracy 99.874
+Test: [0/40]	Loss 2.9472 (2.9472)	Accuracy 43.750 (43.750)
+valid_accuracy 39.730
+one epoch duration:14.014017343521118
+Epoch #171, Learning rate: 0.0010000000000000002
+Epoch: [171][49/196]	Loss 0.0270 (0.0290)	Accuracy 100.000 (99.883)	Time 3.24
+Epoch: [171][99/196]	Loss 0.0244 (0.0298)	Accuracy 100.000 (99.883)	Time 3.24
+Epoch: [171][149/196]	Loss 0.0310 (0.0297)	Accuracy 99.609 (99.896)	Time 3.24
+train_accuracy 99.894
+Test: [0/40]	Loss 2.9423 (2.9423)	Accuracy 44.531 (44.531)
+valid_accuracy 39.630
+one epoch duration:14.065939664840698
+Epoch #172, Learning rate: 0.0010000000000000002
+Epoch: [172][49/196]	Loss 0.0227 (0.0293)	Accuracy 100.000 (99.914)	Time 3.25
+Epoch: [172][99/196]	Loss 0.0291 (0.0293)	Accuracy 99.609 (99.895)	Time 3.23
+Epoch: [172][149/196]	Loss 0.0324 (0.0292)	Accuracy 100.000 (99.893)	Time 3.23
+train_accuracy 99.892
+Test: [0/40]	Loss 2.9391 (2.9391)	Accuracy 44.922 (44.922)
+valid_accuracy 39.800
+one epoch duration:14.051335096359253
+Epoch #173, Learning rate: 0.0010000000000000002
+Epoch: [173][49/196]	Loss 0.0239 (0.0283)	Accuracy 100.000 (99.898)	Time 3.24
+Epoch: [173][99/196]	Loss 0.0338 (0.0282)	Accuracy 100.000 (99.906)	Time 3.23
+Epoch: [173][149/196]	Loss 0.0302 (0.0288)	Accuracy 100.000 (99.911)	Time 3.22
+train_accuracy 99.900
+Test: [0/40]	Loss 2.9517 (2.9517)	Accuracy 44.141 (44.141)
+valid_accuracy 39.710
+one epoch duration:14.02356219291687
+Epoch #174, Learning rate: 0.0010000000000000002
+Epoch: [174][49/196]	Loss 0.0255 (0.0299)	Accuracy 100.000 (99.852)	Time 3.24
+Epoch: [174][99/196]	Loss 0.0239 (0.0293)	Accuracy 100.000 (99.875)	Time 3.25
+Epoch: [174][149/196]	Loss 0.0328 (0.0293)	Accuracy 99.219 (99.872)	Time 3.26
+train_accuracy 99.868
+Test: [0/40]	Loss 2.9516 (2.9516)	Accuracy 44.531 (44.531)
+valid_accuracy 39.650
+one epoch duration:14.077024459838867
+Epoch #175, Learning rate: 0.0010000000000000002
+Epoch: [175][49/196]	Loss 0.0233 (0.0294)	Accuracy 100.000 (99.836)	Time 3.23
+Epoch: [175][99/196]	Loss 0.0272 (0.0293)	Accuracy 100.000 (99.855)	Time 3.23
+Epoch: [175][149/196]	Loss 0.0345 (0.0291)	Accuracy 100.000 (99.885)	Time 3.23
+train_accuracy 99.886
+Test: [0/40]	Loss 2.9383 (2.9383)	Accuracy 44.141 (44.141)
+valid_accuracy 39.490
+one epoch duration:14.03939175605774
+Epoch #176, Learning rate: 0.0010000000000000002
+Epoch: [176][49/196]	Loss 0.0240 (0.0293)	Accuracy 100.000 (99.898)	Time 3.25
+Epoch: [176][99/196]	Loss 0.0255 (0.0292)	Accuracy 99.609 (99.906)	Time 3.23
+Epoch: [176][149/196]	Loss 0.0317 (0.0295)	Accuracy 99.609 (99.878)	Time 3.23
+train_accuracy 99.872
+Test: [0/40]	Loss 2.9431 (2.9431)	Accuracy 44.531 (44.531)
+valid_accuracy 39.610
+one epoch duration:14.051589250564575
+Epoch #177, Learning rate: 0.0010000000000000002
+Epoch: [177][49/196]	Loss 0.0258 (0.0287)	Accuracy 100.000 (99.891)	Time 3.25
+Epoch: [177][99/196]	Loss 0.0314 (0.0293)	Accuracy 99.609 (99.879)	Time 3.24
+Epoch: [177][149/196]	Loss 0.0293 (0.0293)	Accuracy 100.000 (99.865)	Time 3.24
+train_accuracy 99.868
+Test: [0/40]	Loss 2.9507 (2.9507)	Accuracy 43.750 (43.750)
+valid_accuracy 39.380
+one epoch duration:14.095900535583496
+Epoch #178, Learning rate: 0.0010000000000000002
+Epoch: [178][49/196]	Loss 0.0254 (0.0286)	Accuracy 100.000 (99.867)	Time 3.25
+Epoch: [178][99/196]	Loss 0.0249 (0.0287)	Accuracy 100.000 (99.871)	Time 3.23
+Epoch: [178][149/196]	Loss 0.0344 (0.0287)	Accuracy 100.000 (99.883)	Time 3.24
+train_accuracy 99.892
+Test: [0/40]	Loss 2.9387 (2.9387)	Accuracy 44.531 (44.531)
+valid_accuracy 39.590
+one epoch duration:14.064394235610962
+Epoch #179, Learning rate: 0.0010000000000000002
+Epoch: [179][49/196]	Loss 0.0286 (0.0277)	Accuracy 100.000 (99.906)	Time 3.25
+Epoch: [179][99/196]	Loss 0.0322 (0.0282)	Accuracy 99.609 (99.887)	Time 3.24
+Epoch: [179][149/196]	Loss 0.0261 (0.0288)	Accuracy 100.000 (99.859)	Time 3.25
+train_accuracy 99.854
+Test: [0/40]	Loss 2.9355 (2.9355)	Accuracy 44.922 (44.922)
+valid_accuracy 39.430
+one epoch duration:14.08861255645752
+Epoch #180, Learning rate: 0.0010000000000000002
+Epoch: [180][49/196]	Loss 0.0283 (0.0274)	Accuracy 100.000 (99.906)	Time 3.27
+Epoch: [180][99/196]	Loss 0.0292 (0.0282)	Accuracy 99.609 (99.910)	Time 3.25
+Epoch: [180][149/196]	Loss 0.0341 (0.0286)	Accuracy 100.000 (99.904)	Time 3.25
+train_accuracy 99.888
+Test: [0/40]	Loss 2.9523 (2.9523)	Accuracy 45.703 (45.703)
+valid_accuracy 39.550
+one epoch duration:14.119009971618652
+Epoch #181, Learning rate: 0.0010000000000000002
+Epoch: [181][49/196]	Loss 0.0321 (0.0299)	Accuracy 100.000 (99.844)	Time 3.27
+Epoch: [181][99/196]	Loss 0.0239 (0.0296)	Accuracy 100.000 (99.852)	Time 3.23
+Epoch: [181][149/196]	Loss 0.0324 (0.0292)	Accuracy 99.609 (99.875)	Time 3.24
+train_accuracy 99.864
+Test: [0/40]	Loss 2.9459 (2.9459)	Accuracy 44.141 (44.141)
+valid_accuracy 39.580
+one epoch duration:14.081058025360107
+Epoch #182, Learning rate: 0.0010000000000000002
+Epoch: [182][49/196]	Loss 0.0251 (0.0292)	Accuracy 100.000 (99.859)	Time 3.24
+Epoch: [182][99/196]	Loss 0.0296 (0.0294)	Accuracy 99.609 (99.852)	Time 3.23
+Epoch: [182][149/196]	Loss 0.0300 (0.0292)	Accuracy 99.609 (99.857)	Time 3.24
+train_accuracy 99.864
+Test: [0/40]	Loss 2.9573 (2.9573)	Accuracy 43.359 (43.359)
+valid_accuracy 39.500
+one epoch duration:14.074382543563843
+Epoch #183, Learning rate: 0.0010000000000000002
+Epoch: [183][49/196]	Loss 0.0298 (0.0282)	Accuracy 99.609 (99.914)	Time 3.25
+Epoch: [183][99/196]	Loss 0.0238 (0.0285)	Accuracy 100.000 (99.891)	Time 3.23
+Epoch: [183][149/196]	Loss 0.0293 (0.0287)	Accuracy 100.000 (99.888)	Time 3.23
+train_accuracy 99.884
+Test: [0/40]	Loss 2.9515 (2.9515)	Accuracy 44.141 (44.141)
+valid_accuracy 39.510
+one epoch duration:14.053934812545776
+Epoch #184, Learning rate: 0.0010000000000000002
+Epoch: [184][49/196]	Loss 0.0336 (0.0284)	Accuracy 100.000 (99.883)	Time 3.25
+Epoch: [184][99/196]	Loss 0.0205 (0.0285)	Accuracy 100.000 (99.863)	Time 3.24
+Epoch: [184][149/196]	Loss 0.0240 (0.0287)	Accuracy 100.000 (99.870)	Time 3.24
+train_accuracy 99.886
+Test: [0/40]	Loss 2.9400 (2.9400)	Accuracy 44.141 (44.141)
+valid_accuracy 39.520
+one epoch duration:14.066299200057983
+Epoch #185, Learning rate: 0.0010000000000000002
+Epoch: [185][49/196]	Loss 0.0227 (0.0294)	Accuracy 100.000 (99.844)	Time 3.24
+Epoch: [185][99/196]	Loss 0.0315 (0.0294)	Accuracy 100.000 (99.855)	Time 3.24
+Epoch: [185][149/196]	Loss 0.0284 (0.0293)	Accuracy 100.000 (99.875)	Time 3.23
+train_accuracy 99.874
+Test: [0/40]	Loss 2.9441 (2.9441)	Accuracy 42.969 (42.969)
+valid_accuracy 39.220
+one epoch duration:14.040395498275757
+Epoch #186, Learning rate: 0.0010000000000000002
+Epoch: [186][49/196]	Loss 0.0276 (0.0297)	Accuracy 99.609 (99.789)	Time 3.25
+Epoch: [186][99/196]	Loss 0.0333 (0.0290)	Accuracy 99.609 (99.824)	Time 3.23
+Epoch: [186][149/196]	Loss 0.0278 (0.0290)	Accuracy 100.000 (99.854)	Time 3.24
+train_accuracy 99.848
+Test: [0/40]	Loss 2.9260 (2.9260)	Accuracy 43.750 (43.750)
+valid_accuracy 39.570
+one epoch duration:14.067713499069214
+Epoch #187, Learning rate: 0.0010000000000000002
+Epoch: [187][49/196]	Loss 0.0271 (0.0289)	Accuracy 100.000 (99.906)	Time 3.24
+Epoch: [187][99/196]	Loss 0.0323 (0.0289)	Accuracy 100.000 (99.898)	Time 3.23
+Epoch: [187][149/196]	Loss 0.0329 (0.0290)	Accuracy 100.000 (99.896)	Time 3.24
+train_accuracy 99.898
+Test: [0/40]	Loss 2.9310 (2.9310)	Accuracy 43.750 (43.750)
+valid_accuracy 39.710
+one epoch duration:14.072272539138794
+Epoch #188, Learning rate: 0.0010000000000000002
+Epoch: [188][49/196]	Loss 0.0265 (0.0286)	Accuracy 100.000 (99.930)	Time 3.25
+Epoch: [188][99/196]	Loss 0.0303 (0.0290)	Accuracy 100.000 (99.922)	Time 3.25
+Epoch: [188][149/196]	Loss 0.0233 (0.0291)	Accuracy 100.000 (99.901)	Time 3.24
+train_accuracy 99.888
+Test: [0/40]	Loss 2.9155 (2.9155)	Accuracy 44.922 (44.922)
+valid_accuracy 39.710
+one epoch duration:14.076972484588623
+Epoch #189, Learning rate: 0.0010000000000000002
+Epoch: [189][49/196]	Loss 0.0211 (0.0295)	Accuracy 100.000 (99.867)	Time 3.24
+Epoch: [189][99/196]	Loss 0.0329 (0.0290)	Accuracy 99.609 (99.879)	Time 3.24
+Epoch: [189][149/196]	Loss 0.0309 (0.0288)	Accuracy 100.000 (99.875)	Time 3.24
+train_accuracy 99.880
+Test: [0/40]	Loss 2.9318 (2.9318)	Accuracy 44.141 (44.141)
+valid_accuracy 39.550
+one epoch duration:14.047682046890259
+Epoch #190, Learning rate: 0.0010000000000000002
+Epoch: [190][49/196]	Loss 0.0223 (0.0287)	Accuracy 100.000 (99.906)	Time 3.26
+Epoch: [190][99/196]	Loss 0.0255 (0.0286)	Accuracy 100.000 (99.922)	Time 3.24
+Epoch: [190][149/196]	Loss 0.0281 (0.0283)	Accuracy 99.609 (99.911)	Time 3.24
+train_accuracy 99.900
+Test: [0/40]	Loss 2.9338 (2.9338)	Accuracy 43.750 (43.750)
+valid_accuracy 39.470
+one epoch duration:14.084188222885132
+Epoch #191, Learning rate: 0.0010000000000000002
+Epoch: [191][49/196]	Loss 0.0273 (0.0281)	Accuracy 100.000 (99.906)	Time 3.26
+Epoch: [191][99/196]	Loss 0.0252 (0.0287)	Accuracy 100.000 (99.863)	Time 3.24
+Epoch: [191][149/196]	Loss 0.0275 (0.0288)	Accuracy 100.000 (99.870)	Time 3.23
+train_accuracy 99.872
+Test: [0/40]	Loss 2.9237 (2.9237)	Accuracy 43.359 (43.359)
+valid_accuracy 39.350
+one epoch duration:14.062991857528687
+Epoch #192, Learning rate: 0.0010000000000000002
+Epoch: [192][49/196]	Loss 0.0273 (0.0275)	Accuracy 100.000 (99.938)	Time 3.26
+Epoch: [192][99/196]	Loss 0.0345 (0.0283)	Accuracy 100.000 (99.910)	Time 3.23
+Epoch: [192][149/196]	Loss 0.0369 (0.0287)	Accuracy 99.609 (99.898)	Time 3.24
+train_accuracy 99.898
+Test: [0/40]	Loss 2.9283 (2.9283)	Accuracy 44.531 (44.531)
+valid_accuracy 39.590
+one epoch duration:14.084816217422485
+Epoch #193, Learning rate: 0.0010000000000000002
+Epoch: [193][49/196]	Loss 0.0334 (0.0274)	Accuracy 99.609 (99.914)	Time 3.24
+Epoch: [193][99/196]	Loss 0.0255 (0.0283)	Accuracy 100.000 (99.883)	Time 3.24
+Epoch: [193][149/196]	Loss 0.0256 (0.0288)	Accuracy 100.000 (99.865)	Time 3.24
+train_accuracy 99.878
+Test: [0/40]	Loss 2.9111 (2.9111)	Accuracy 43.750 (43.750)
+valid_accuracy 39.750
+one epoch duration:14.078706502914429
+Epoch #194, Learning rate: 0.0010000000000000002
+Epoch: [194][49/196]	Loss 0.0302 (0.0285)	Accuracy 100.000 (99.883)	Time 3.25
+Epoch: [194][99/196]	Loss 0.0256 (0.0287)	Accuracy 100.000 (99.891)	Time 3.23
+Epoch: [194][149/196]	Loss 0.0324 (0.0289)	Accuracy 99.609 (99.891)	Time 3.24
+train_accuracy 99.880
+Test: [0/40]	Loss 2.9367 (2.9367)	Accuracy 42.578 (42.578)
+valid_accuracy 39.620
+one epoch duration:14.065119981765747
+Epoch #195, Learning rate: 0.0010000000000000002
+Epoch: [195][49/196]	Loss 0.0255 (0.0285)	Accuracy 100.000 (99.922)	Time 3.25
+Epoch: [195][99/196]	Loss 0.0231 (0.0286)	Accuracy 100.000 (99.895)	Time 3.24
+Epoch: [195][149/196]	Loss 0.0306 (0.0286)	Accuracy 100.000 (99.888)	Time 3.24
+train_accuracy 99.892
+Test: [0/40]	Loss 2.9242 (2.9242)	Accuracy 44.922 (44.922)
+valid_accuracy 39.650
+one epoch duration:14.076050043106079
+Epoch #196, Learning rate: 0.0010000000000000002
+Epoch: [196][49/196]	Loss 0.0288 (0.0280)	Accuracy 99.609 (99.922)	Time 3.25
+Epoch: [196][99/196]	Loss 0.0284 (0.0288)	Accuracy 100.000 (99.895)	Time 3.24
+Epoch: [196][149/196]	Loss 0.0213 (0.0289)	Accuracy 100.000 (99.878)	Time 3.24
+train_accuracy 99.880
+Test: [0/40]	Loss 2.9167 (2.9167)	Accuracy 44.531 (44.531)
+valid_accuracy 39.470
+one epoch duration:14.052106857299805
+Epoch #197, Learning rate: 0.0010000000000000002
+Epoch: [197][49/196]	Loss 0.0268 (0.0283)	Accuracy 100.000 (99.891)	Time 3.25
+Epoch: [197][99/196]	Loss 0.0272 (0.0285)	Accuracy 100.000 (99.883)	Time 3.24
+Epoch: [197][149/196]	Loss 0.0311 (0.0285)	Accuracy 99.609 (99.888)	Time 3.24
+train_accuracy 99.882
+Test: [0/40]	Loss 2.9098 (2.9098)	Accuracy 44.141 (44.141)
+valid_accuracy 39.590
+one epoch duration:14.087918043136597
+Epoch #198, Learning rate: 0.0010000000000000002
+Epoch: [198][49/196]	Loss 0.0225 (0.0290)	Accuracy 100.000 (99.875)	Time 3.25
+Epoch: [198][99/196]	Loss 0.0251 (0.0291)	Accuracy 100.000 (99.891)	Time 3.24
+Epoch: [198][149/196]	Loss 0.0249 (0.0286)	Accuracy 100.000 (99.904)	Time 3.24
+train_accuracy 99.886
+Test: [0/40]	Loss 2.9181 (2.9181)	Accuracy 43.359 (43.359)
+valid_accuracy 39.610
+one epoch duration:14.06694507598877
+Epoch #199, Learning rate: 0.0010000000000000002
+Epoch: [199][49/196]	Loss 0.0294 (0.0279)	Accuracy 100.000 (99.938)	Time 3.24
+Epoch: [199][99/196]	Loss 0.0235 (0.0282)	Accuracy 100.000 (99.898)	Time 3.24
+Epoch: [199][149/196]	Loss 0.0289 (0.0285)	Accuracy 100.000 (99.901)	Time 3.24
+train_accuracy 99.898
+Test: [0/40]	Loss 2.9238 (2.9238)	Accuracy 43.359 (43.359)
+valid_accuracy 39.720
+one epoch duration:14.072262525558472
+Performance on the test data set
+Test: [0/40]	Loss 2.9238 (2.9238)	Accuracy 43.359 (43.359)
+valid_accuracy 39.720
+* best SA = 46.83, Epoch = 31
